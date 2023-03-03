@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <head>
+        <title>The Pantheon</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="zeus.jpg">
+    </head>
+    
+<body class="container">
+    <header id="main-header">
+        <h1>The Pantheon</h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <button class="GFG" id="home"
+            onclick="window.location.href = 'Index.html';">
+                Home
+            </button>
+            <button class="GFG" id="zeus"
+            onclick="window.location.href = 'page1.html';">
+                Zeus
+            </button>
+        
+            <button class="GFG" id="hades"
+            onclick="window.location.href = 'page2.html';">
+                Hades
+            </button>
+            <button class="GFG" id="poseidon"
+            onclick="window.location.href = 'page3.html';">
+                Poseidon
+            </button>
+        </ul>
+        </nav>
+<table class="center">
+    <tr>
+        <th>Zeus</th>
+        <th>Hades</th>
+        <th>Poseidon</th>
+    </tr>
+    <tr>
+    <td>
+        <a href="page1.html"><img src="zeus.jpg"
+        alt="Zeus"
+        width="480"
+        height="1000"/></a>
+    </td>
+    <td>
+        <a href="page2.html"><img src="hades.jpg"
+        alt="Hades"
+        width="480"
+        height="1000"/></a>
+    </td>
+    <td>
+        <a href="page3.html"><img src="poseidon.webp"
+        alt="Poseidon"
+        width="480"
+        height="1000"/></a>
+    </td>
+    </tr>
+</div>
+</table>
+    <div>
+        <button onclick="playPause()">Play/Pause Music
+        </button>
+    </div>
+        <video id="video1" width="0">
+            <source src="Hades - Epic Music Orchestra for the God of the Underworld - Ancient Gods.mp4" type="video/mp4">
+        </video>
+        &copy;2023 ThePantheonProject.com
+        <script> 
+            var myVideo = document.getElementById("video1"); 
+            
+            function playPause() { 
+            if (myVideo.paused) 
+                myVideo.play(); 
+            else 
+                myVideo.pause(); 
+            } 
+        </script>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+
+#main-header{
+    overflow: hidden;
+    background-color:rgb(60, 60, 45);
+    width: 120%; 
+    margin: auto;
+    margin-left: -10%;
+    line-height: 0em;
+    color: white;
+    font-size: 26px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 0%;
+    }
+.sidebyside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin:20px;
+    
+}
+    table, th, td {
+        border:1px solid black;
+        font-size: 30px;
+    }
+    th {
+        background-color: wheat;
+    }
+    body {
+        background-color: antiquewhite;
+        text-align: center;
+    }
+#navbar {
+    overflow: hidden;
+    background-color:rgb(20, 20, 25);
+    width: 120%; 
+    margin: auto;
+    margin-left: -10%;
+    line-height: 0em;
+    color: white;
+}
+.headerzeus {
+    overflow: hidden;
+    background-color: rgb(158, 180, 240);
+    width: 120%; 
+    margin: auto;
+    margin-left: -10%;
+    line-height: 0em;
+    color: white;
+    height: auto;
+    font-size: 20px;
+
+}
+.headerposeidon {
+    overflow: hidden;
+    background-color:lightseagreen;
+    width: 120%; 
+    margin: auto;
+    margin-left: -10%;
+    line-height: 0em;
+    color: white;
+    height: auto;
+    font-size: 20px;
+
+}
+.headerhades {
+    overflow: hidden;
+    background-color: lightcoral;
+    width: 120%; 
+    margin: auto;
+    margin-left: -10%;
+    line-height: 0em;
+    color: white;
+    height: auto;
+    font-size: 20px;
+
+}
+.GFG{
+    background-color: rgb(20, 20, 25);
+    border: 1px solid white;
+    color:white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 30px;
+    cursor: pointer;
+    border-radius:8px;
+    transition-duration: 0.2s;
+    }
+#zeus:hover{
+    background-color: rgb(158, 180, 240);
+    color:black;
+}
+#hades:hover{
+    background-color: lightcoral;
+    color:black;
+}
+#poseidon:hover{
+    background-color: lightseagreen;
+    color:black;
+}
+
+#home:hover{
+    background-color: antiquewhite;
+    color:black;
+}
+
+.text{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+h1{
+    background-color: wheat;
+    width: 120%;
+    margin-left: -10%;
+}
